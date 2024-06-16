@@ -10,5 +10,5 @@ form.addEventListener("submit", (evento) => {
   const senha = form["input-senha"].value;
   const nascimento = form["input-nascimento"].value;
 
-  emitirCadastrarUsuario({ nome, email, senha, nascimento });
+emitirCadastrarUsuario({ nome, email, senha, nascimento });
 });

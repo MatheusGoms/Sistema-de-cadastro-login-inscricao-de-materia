@@ -28,15 +28,15 @@
       </div>
       <div class="mb-3">
         <label for="input-email" class="form-label">Email</label>
-        <input type="text" class="form-control" id="input-email" required>
+        <input type="email" class="form-control" id="input-email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
       </div>
       <div class="mb-3">
         <label for="input-senha" class="form-label">Senha</label>
-        <input type="password" class="form-control" id="input-senha" required>
+        <input type="password" class="form-control" id="input-senha" minlength="8" maxlength="12" required>
       </div>
       <div class="mb-3">
         <label for="input-nascimento" class="form-label">Nascimento</label>
-        <input type="text" class="form-control" id="input-nascimento" required>
+        <input type="date" class="form-control" id="input-nascimento" required>
       </div>
       <button type="submit" class="btn btn-primary mb-3">Cadastrar</button>
       <p>Já possui cadastro? <a href="/login/index.html" class="link-primary">Faça o login</a></p>
